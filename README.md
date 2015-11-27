@@ -181,12 +181,14 @@ Creation of the SAP Fiori client is explained well in SAP documentation links pr
 	
 4.	Some versions of cordova does not apply preferences during prepare phase so check manually if launch mode in Android manifest was set to "singleTask". In order to do it open file under the path <fiori client project>\platforms\android\AndroidManifest.xml in any XML or text editor and search for activity named "MainActivity" here check if launch mode attribute has following value:
 
-	  ```android:launchMode="singleTask"```
+	  ```
+	  android:launchMode="singleTask"
+	  ```
 	  
 5.	Use Android Studio or ADT command line to deploy and run the project. Or run following command from console to build project using cordova command line:
      
     ```
 	cordova platform update android
-    cordova build android
-	```
+	cordova build android
+    ```
 
