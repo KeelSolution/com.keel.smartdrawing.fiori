@@ -2,7 +2,7 @@
 
 The [SMART Drawings application](http://keelsolution.com/smart-drawings/) from Keel allows you to click directly on objects on a drawing, thereby activating a visual image of the equipment, including technical data such as specifications or maintenance data. The SMART Drawings application provides a more intuitive and visual way to search for information. It is designed to make it easier for SAP users to view and manage technical data as graphical content. With the software, you can search, browse through, view and manage your technical asset data directly from a drawing. It facilitates work processes in engineering and maintenance by using an interactive graphical format.
 
-<img alt="Example of Fiori app showing its inspection progress and information about particular equipment inside Smart drawing app" width="600" src="https://wiki.keelsolution.com/download/attachments/46204053/Smart_Drawing_action%20items.png"  title="Example of Fiori app showing its inspection progress and information about particular equipment inside Smart drawing app">
+<img alt="Example of Fiori app showing its inspection progress and information about particular equipment inside Smart drawing app" width="600" src="img/Smart_Drawing_action%20items.png"  title="Example of Fiori app showing its inspection progress and information about particular equipment inside Smart drawing app">
 
 Smart Drawing can collaborate with other apps to do a task and to achieve shared goals. It can be used in recursive processes where two or more apps work together to achieve common goal — for example check status of work orders on drawing, visualize inspection results or progress by sharing information about equipment on arrangement drawing.
 Collaboration between another applications and Smart Drawing app can be achieved using deep links or using an SDK provided by Keel. The deep link integration allows user to call Smart Drawing directly from another application without integrating any SDK. This increases greater flexibility by allowing user use it like a normal hyperlinks in web pages, emails or documents but has limited functionality as it commands to Smart Drawing app to open some drawing or show some object on drawing without checking if the given drawing/object exist, was cached and is generally known by the app.
@@ -135,8 +135,7 @@ After Smart Drawing plugin is integrated in Firoi Client every Fiori app can hav
 	}
 ```
 
-* Fiori app can check if drawing exist in Smart Drawing and can be shown in app
-* Fiori app can check if drawing exist in Smart Drawing and can be shown in app
+* Fiori app can register to be called automatically to check every action in Smart Drawing directly from SAP Fiori launchpad setup - for details see [configuration steps here](link???). 
 
 # Plugin integration
 
@@ -173,7 +172,7 @@ Creation of the SAP Fiori client is explained well in SAP documentation links pr
 
 2.	Add Smart Drawing Fiori plugin from GitHub running following in command line - this will get latest stable version of plugin from GitHub
 
-	```cordova plugins add D:\Dev\SMPSDK\KapselSDK\apps\fiori_client\com.keel.smartdrawing.fiori```
+	```cordova plugin add https://github.com/KeelSolution/com.keel.smartdrawing.fiori.git```
 
 3.	Copy the files to the platform directory by running
 	

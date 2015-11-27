@@ -4,13 +4,13 @@
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.keel.smartdrawing.fiori"
-    version="1.0.0">
+    version="1.0.10">
     <name>SmartDrawing</name>
-    <description>Smart Drawing integration for Cordova</description>
+    <description>Smart Drawing integration for SAP Fiori Client</description>
 	<author>Keel Solution ApS</author>
-    <keywords>cordova,smart drawing,smart,drawing</keywords>
+    <keywords>cordova,smart drawing,smart,drawing, kapsel</keywords>
 		
-	<info>Please see our plugin documentation for more information: ...</info>
+	<info>Please see our plugin documentation for more information: https://wiki.keelsolution.com/display/SMD/DEVELOPMENT%3A+Building+SAP+Fiori+Client+with+Smart+Drawing+app+integration</info>
 
     <js-module src="www/smartdrawing.js" name="SmartDrawing">
         <clobbers target="SmartDrawing" />
