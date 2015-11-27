@@ -13,7 +13,7 @@ As well there are integration plugin written for SAP Fiori client that is discus
 
 ## Basic usage of Smart Drawing plugin
 
-After Smart Drawing plugin is integrated in Firoi Client every Fiori app can have access to it. [API document](doc/index.html) describes in details how to perform calls to Smart Drawing app from Fiori app, the most typical examples are given below:
+After Smart Drawing plugin is integrated in Firoi Client every Fiori app can have access to it. [API document](http://keelsolution.github.io/com.keel.smartdrawing.fiori/SmartDrawing.html) describes in details how to perform calls to Smart Drawing app from Fiori app, the most typical examples are given below:
 
 * Fiori app can check if an object (equipment, location) can be shown at any kind of drawings. See example below on how check if particular equipment can be shown on drawing:
 ```javascript
@@ -135,7 +135,7 @@ After Smart Drawing plugin is integrated in Firoi Client every Fiori app can hav
 	}
 ```
 
-* Fiori app can register to be called automatically to check every action in Smart Drawing directly from SAP Fiori launchpad setup - for details see [configuration steps here](link???). 
+* Fiori app can register to be called automatically to check every action in Smart Drawing directly from SAP Fiori launchpad setup - for details see [configuration steps here](https://wiki.keelsolution.com/display/SMD/SAP+Fiori+Launchpad+configuration+for+default+action+subscription+in+Smart+Drawing+app). 
 
 # Plugin integration
 
@@ -166,7 +166,7 @@ Creation of the SAP Fiori client is explained well in SAP documentation links pr
 
 
 
-# Adding Smart Drawing plugin
+## Adding Smart Drawing plugin
 
 1.	Open folder with your custom Fiori Client project from command line
 
