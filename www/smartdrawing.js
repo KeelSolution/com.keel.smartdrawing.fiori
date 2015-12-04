@@ -904,7 +904,7 @@
 					for (var i = 0; i < aGroups.length; i++) {
 
 						//check if there are any apps attached to 'Smart Drawing Integrated' catalog - they will be always shown
-						if  (aGroups[i].name && aGroups[i].name === FIORI_SMD_CATALOG_LABEL){
+						if  ((aGroups[i].name && aGroups[i].name === FIORI_SMD_CATALOG_LABEL) || (aGroups[i].title && aGroups[i].title === FIORI_SMD_CATALOG_LABEL)){
 							//for every tile get parameters, and based on it decide what to do with tile
 							var fgetService = sap.ushell && sap.ushell.Container && sap.ushell.Container.getService;
                             var oNav =  fgetService && fgetService("NavTargetResolution");

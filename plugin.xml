@@ -10,7 +10,7 @@
 	<author>Keel Solution ApS</author>
     <keywords>cordova,smart drawing,smart,drawing, kapsel</keywords>
 		
-	<info>Please see our plugin documentation for more information: https://wiki.keelsolution.com/display/SMD/DEVELOPMENT%3A+Building+SAP+Fiori+Client+with+Smart+Drawing+app+integration</info>
+	<info>Please see our plugin documentation for more information: https://wiki.keelsolution.com/display/SMD/Integration+of+SAP+Fiori+apps</info>
 
     <js-module src="www/smartdrawing.js" name="SmartDrawing">
         <clobbers target="SmartDrawing" />
